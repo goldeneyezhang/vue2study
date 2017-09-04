@@ -1,18 +1,19 @@
 # vue-todos
 
-> A Vue.js project
+> Vue2 待办事项示例
 
-## Build Setup
+## 安装
 
-``` bash
-# install dependencies
-npm install
+     $ npm run i
+   
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 运行示例
 
-# build for production with minification
-npm run build
+```
+$ npm run dev
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 在线演示
+
+点击以下链接打开运行本示例: [在线演示](https://dotnetage.github.io/vue-todos/)
+
