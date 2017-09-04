@@ -3,6 +3,11 @@
     <img src="./assets/logo.png">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
+	<ul>
+		<li v-for="todo in todos">
+			<label>{{todo.value}}</label>
+		</li>
+	</ul>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
       <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
@@ -24,7 +29,12 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+	  todos:[
+		{value:"阅读一本关于前端开发的书",done:false},
+		{value:"补充范例代码",done:true},
+		{value:"写心得",done:false}
+	  ]
     }
   }
 }
