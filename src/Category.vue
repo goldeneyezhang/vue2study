@@ -1,6 +1,6 @@
-<!--/Home.vue-->
+<!--/Category.vue-->
 <template>
-<div>Ê×Ò³</div>
+<div>Category</div>
 </template>
 <style></style>
 <script>

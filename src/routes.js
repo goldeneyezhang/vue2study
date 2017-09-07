@@ -9,7 +9,7 @@ import Me from './Me.vue'
 //使用路由实例插件
 Vue.use(VueRouter)
 
-export default  new VueRouter({
+const router =  new VueRouter({
     mode:"history",
     base:_dirname,
     routes:[

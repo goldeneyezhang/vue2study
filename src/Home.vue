@@ -1,6 +1,6 @@
 <!--/Home.vue-->
 <template>
-<div>Ê×Ò³</div>
+<div>Home</div>
 </template>
 <style></style>
 <script>

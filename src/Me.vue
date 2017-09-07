@@ -1,6 +1,6 @@
-<!--/Home.vue-->
+<!--/Me.vue-->
 <template>
-<div>Ê×Ò³</div>
+<div>Me</div>
 </template>
 <style></style>
 <script>

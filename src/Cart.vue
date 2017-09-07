@@ -1,6 +1,6 @@
-<!--/Home.vue-->
+<!--/Cart.vue-->
 <template>
-<div>Ê×Ò³</div>
+<div>Cart</div>
 </template>
 <style></style>
 <script>
